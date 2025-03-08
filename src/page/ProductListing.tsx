@@ -8,21 +8,21 @@ const ProductListing = () => {
       name: "ወተት",
       category: "የቤት ምግቦች",
       price: 30.0,
-      image: "https://via.placeholder.com/150?text=ወተት",
+      image: "https://unsplash.com/photos/clear-drinking-glass-with-white-liquid-p3ViLmVgVJ4",
     },
     {
       id: 2,
       name: "ኡርጎ",
       category: "የቤት ምግቦች",
       price: 50.0,
-      image: "https://via.placeholder.com/150?text=ኡርጎ",
+      image: "https://www.istockphoto.com/photo/pouring-milk-in-the-glass-on-the-background-of-nature-gm535489242-94960833",
     },
     {
       id: 3,
       name: "ክብ",
       category: "የቤት ምግቦች",
       price: 25.0,
-      image: "https://via.placeholder.com/150?text=ክብ",
+      image: "../img/kolo.png",
     },
     {
       id: 4,
@@ -142,7 +142,7 @@ const ProductListing = () => {
                   <img
                     src={product.image}
                     className="card-img-top"
-                    alt={product.name}
+                    alt={product.image}
                   />
                   <div className="card-body">
                     <h5 className="card-title">{product.name}</h5>
